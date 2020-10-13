@@ -1,0 +1,4 @@
+// 比賽 20201012
+--image=ISLAB_image_20201012\1.png --weight=ISLAB_20201012\frozen_inference_graph.pb --graph=ISLAB_20201012\maskrcnn_inception_20201008.pbtxt --classes=car_labels.names --colors=colors.txt --output_file=result_1.png --outlayer_names=detection_out_final,detection_masks --backend=OpenCV --target=CPU --mask=0.3 --conf=0.7
+--image=ISLAB_image_20201012\1.png --weight=ISLAB_20201012\frozen_inference_graph.pb --graph=ISLAB_20201012\maskrcnn_inception_20201008.pbtxt --classes=car_labels.names --colors=colors.txt --output_file=result_1.png --outlayer_names=detection_out_final,detection_masks --backend=OpenCV --target=GPU --mask=0.3 --conf=0.7
+--image=ISLAB_image_20201012\1.png --weight=ISLAB_20201012\frozen_inference_graph.pb --graph=ISLAB_20201012\maskrcnn_inception_20201008.pbtxt --classes=car_labels.names --colors=colors.txt --output_file=result_1.png --outlayer_names=detection_out_final,detection_masks --backend=OpenCV --target=GPU16 --mask=0.3 --conf=0.7
