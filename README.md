@@ -1,21 +1,21 @@
 # 2020 AI Hackathon
-This repository is using MaskRCNN to detection the car damage.
+This repository uses MaskRCNN to detect car damage.
 
 ## MaskRCNN Training
-* If you have any questions for training MaskRCNN models, please see [this](https://github.com/matterport/Mask_RCNN).
+* If you have any questions for training MaskRCNN models, please click [this](https://github.com/matterport/Mask_RCNN).
 
 ## OpenCV Library
-* This repository used [OpenCV 4.4.0](https://opencv.org/opencv-4-4-0/) and [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/).
-* If you want to enable OpenCL for OpenCV, please enable ```WITH_OPENCL``` when you configure cmake files.
+* This repository uses [OpenCV 4.4.0](https://opencv.org/opencv-4-4-0/) and [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/).
+* To enable OpenCL for OpenCV, please enable ```WITH_OPENCL``` when you configure cmake files.
 
-## (Optional) OpenVino Environent
-* You can install from [this](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html).
-* If you want to use OpenCV backend ```DNN_BACKEND_INFERENCE_ENGINE```, please use [cmake](https://cmake.org/) and download full of [OpenCV](https://opencv.org/opencv-4-4-0/) source code to enable ```WITH_INF_ENGINE```.
+## (Optional) OpenVino Enviroment
+* You can install it [here](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html).
+* To use OpenCV backend ```DNN_BACKEND_INFERENCE_ENGINE```, please use [cmake](https://cmake.org/) and download the entire [OpenCV](https://opencv.org/opencv-4-4-0/) source code to enable ```WITH_INF_ENGINE```.
 
 ## Notes
 ### 0_Dataset
 * Car damage dataset.
-* Each of images with one JSON file which recorded the object's segmentation.
+* Each image with one JSON file will record the object's segmentation.
 ### 1_Maskrcnn_Segmentation
 #### Program arugments
 ```
